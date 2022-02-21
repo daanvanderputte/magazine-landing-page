@@ -2,3 +2,26 @@
 @import url(../fontawesome-free-6.0.0-beta3-web/css/all.css);
 @import url(./menu.css);
 @import url(./main.css);
+:root {
+    font-size: 16px;
+  }
+/* Flex > Grid > Flex */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+body {
+    font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+    width: 80vw;
+    display: grid;
+    grid-template-rows: 10vh 70vh 20vh;
+    grid-template-areas: 
+    "language-selector"
+    "product-info"
+    "discover-more";
+}
