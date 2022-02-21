@@ -1,8 +1,8 @@
 ## Magazine Landing Page
 
-Screenshot
+<img src=./images/screenshot.png alt="Screenshot"/>
 
-Description
+Recreated a Revue Neuf Boxset landing page using Grid and Flexbox. This project is static, no clickable buttons.
 
 <img src=./svgs/laptop-code.svg alt="Code" width="30"/>
 
